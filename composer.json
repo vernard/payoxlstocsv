@@ -1,0 +1,19 @@
+{
+    "name": "vluebridge/payoxlstocsv",
+    "description": "Converts Payo's excel file of order records into importable CSV format",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Vernard Alexis Luz",
+            "email": "vernardluz15@gmail.com"
+        }
+    ],
+    "require": {
+        "phpoffice/phpspreadsheet": "^1.6"
+    },
+    "autoload": {
+        "psr-0":{
+            "PayoXlsToCsv": "src/"
+        }
+    }
+}
